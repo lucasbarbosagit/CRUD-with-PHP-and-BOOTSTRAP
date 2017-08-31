@@ -1,0 +1,155 @@
+body{
+    background: #269abc;
+}
+.login{
+    background-color: #f9f9f9;
+    width: 400px;
+    padding: 5px 15px 15px 15px;
+    margin: 40px auto;
+    border: 4px solid #2aabd2;
+}
+
+.login h2{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-bottom: 1px solid #269abc;
+    font-weight: bold;
+}
+
+.bloco{
+    background: #ffffff;
+    padding: 15px 15px;
+}
+
+.box {
+    border: 1px solid #d6d6d6;
+    box-shadow: 0 1px 3px rgba(100,100,100,0.1);
+    margin-bottom: 15px;
+    border-radius: 3px 3px 0 0;
+    overflow: visible;
+    position: relative;
+}
+
+.box-title {
+    padding: 10px 15px;
+    background-color: #f8f8f8;
+    background-image: -moz-linear-gradient(top, #fdfdfd, #f6f6f6);
+    background-image: -ms-linear-gradient(top, #fdfdfd, #f6f6f6);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fdfdfd), to(#f6f6f6));
+    background-image: -webkit-linear-gradient(top, #fdfdfd, #f6f6f6);
+    background-image: -o-linear-gradient(top, #fdfdfd, #f6f6f6);
+    background-image: linear-gradient(top, #fdfdfd, #f6f6f6);
+    border-bottom: 1px solid #d6d6d6;
+    color: #555555;
+    text-shadow: 0 1px 0 #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+}
+.accordion .box-title {
+    border-bottom: 0;
+}
+.box-title[data-toggle="collapse"]:hover {
+    cursor: pointer;
+}
+.box.alternate .box-title {
+    background-color: #444444;
+    background-image: -moz-linear-gradient(top, #555555, #333333);
+    background-image: -ms-linear-gradient(top, #555555, #333333);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#555555), to(#333333));
+    background-image: -webkit-linear-gradient(top, #555555, #333333);
+    background-image: -o-linear-gradient(top, #555555, #333333);
+    background-image: linear-gradient(top, #555555, #333333);
+    color: #ffffff;
+    text-shadow: 0 1px 0 #000000;
+}
+.box-title span.ico {
+    display: inline-block;
+    padding: 10px;
+    margin: -10px 10px -10px -10px;
+    border-right: 1px solid #d6d6d6;
+}
+.box.alternate .box-title span.ico {
+    border-right: 1px solid #333;
+}
+.box-title span.label {
+    float: right;
+}
+.box.alternate .box-title span.ico i {
+    background-image: url("../img/glyphicons-halflings-white.png");    
+}
+
+.box-content, .box-content.collapse.in {
+    background-color: #ffffff;
+    padding: 15px;
+}
+
+.box.login .box-content form {
+    margin-bottom: 0;
+}
+.box.login .box-content .control-label {
+    width: 70px;
+}
+.box.login .box-content .controls {
+    margin-left: 90px;
+}
+.box.login .box-content .form-actions {
+    margin: 0 -15px -15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.accordion .box-content.in {
+    border-top: 1px solid #d6d6d6;
+}
+.box-content div[class*="span"] {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.box-content.collapse {
+    padding: 0;
+}
+.box-title .nav {
+    margin: -10px -15px;
+}
+.box-title .nav-tabs {
+    border-bottom: 0;
+    margin-bottom: -10px !important;
+}
+.box-title .nav-tabs li a {
+    border-radius: 0;
+    border-top: none;
+    border-left: 1px solid #d6d6d6;
+    border-right: 1px solid #d6d6d6;
+    border-bottom: none !important;
+    color: #999999;
+    margin: 0 ;
+    outline: none;
+}
+.box.alternate .box-title .nav-tabs li a {
+    text-shadow:none;
+    border-left: 1px solid #444444;
+    border-right: 1px solid #444444;
+}
+.box-title .nav-tabs li a:first-child {
+    border-left: none !important;
+}
+.box-title .nav-tabs li a:hover {
+    color: #666666;
+    background-color: transparent !important;
+    border-width: 0 1px;
+    border-color: #d6d6d6;
+}
+.box-title .nav-tabs li.active a {
+    background-color: #ffffff !important;
+    color: #444444;
+}
+
+.linha{
+    border-bottom: 3px solid #f9f9f9;
+    color: #ffffff;
+}
+
+.logout{
+    margin-top: 10px;
+}
